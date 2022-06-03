@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500");
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #24252a;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+    font-weight: 500;
+}
+.container {
+  top: 75%;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnn {
+  padding: 20px;
+  transition-duration: 0.4s;
+  background-color: #BB8FCE;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.result {
+  height: 40px;
+  width: 370px;
+  top: 10%;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: not-allowed;
+  color: black;
+}
+.result {
+  overflow: auto;
+}
+.btnn:hover {
+                    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #24252a;
+                    transform: translateY(-2px);
+                }
+
+ .btnn:active{
+                    box-shadow: inset 0px 3px 7px #d6d6e7;
+                    transform: translateY(2px);
+                }
+.copyBtn {
+  display: none;
+  padding: 10px;
+  transition-duration: 0.4s;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copyBtn:active{
+                    box-shadow: inset 0px 3px 7px #d6d6e7;
+                    transform: translateY(2px);
+                }
+.git {
+  color: pink;
+  text-decoration: none;
+}
+a.git {
+  color: lightblue;
+}
+.copyright {
+  color: grey;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+}
+a.copyright {
+  text-decoration: none;
+  color: grey;
+}
+.openSrc {
+  float: right;
+  margin: 5px;
+}
+a.openSrc {
+  color: yellow;
+}
+a {
+  text-decoration: none;
+}

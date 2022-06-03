@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Password Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+ 
+  <h1>
+    A perfect high SECURITY password generator.
+  </h1>
+  <div class="container">
+  <p>
+    To create a perfect high security password just select the parameteres below and your strong password will be generated.
+  </p> <br>
+  <div class="inputs">
+ <input type="number" min="5" max="35" value="10" id="length"> Select how many digits your password should have! <br><br>
+  <input type="checkbox" id="number" checked> Include numbers? 123 </input> <br> <br>
+  <input type="checkbox" id="signs" checked> Include signs? !@# </input> <br> <br>
+  <input type="checkbox" id="caps" checked> Include capital characters? ABCD</input> <br> <br>
+    <input type="checkbox" id="lower" checked> Include lower characters? abcd</input> <br> <br>
+  </div>
+    <a  href="#resultr"><button class="btnn" id="btn"">Generate</button></a> <br>
+    <p id="para">Generated password will be shown below!</p>
+    <button class="copyBtn" id="copyBtn">Copy</button> <br>
+    
+    <div class="result" id="result">
+    </div>
+    <section class="resultr" id="resultr">   <span id="resultr" ></span> </section>
+  </div>
+  <footer>
+    <br>
+   <center>
+   <span class="git">
+        Made with ❤️ by <a target="_blank" class="git" id="git"><span id="final">Garvit</span></a>
+    </span>
+    </center>
+      <br>
+      <span class="copyright">
+        © 2022 <a class="copyright" id="copyright"><span id="project">GSR Projects</span></a> — 
+      </span>
+    <span class="openSrc"><a href="http://www.github.com/garvit000/passwordgenerator" class="openSrc">Open Source</span>
+   </footer>
+  
+</body>
+<script type="module" src="script.js"></script>
+  <script type="module" src="config.js"></script>
+</html>
