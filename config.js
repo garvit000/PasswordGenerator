@@ -1,5 +1,5 @@
 let madeBy = "Garvit"; //YOUR NAME
-let madeByURL = "http://www.instagram.com/_garvit_singh_rathore"; //YOUR URL/INSTAGRAM
+let madeByURL = "http://www.instagram.com/garvit_s_r"; //YOUR URL/INSTAGRAM
 let copyright = "GSR Projects";//YOUR COMPANY NAME
 let copyrightURL = "http://www.github.com/garvit000"; // YOUR GITHUB/PORTFOLIO
 
